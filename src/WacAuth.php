@@ -1,5 +1,7 @@
 <?php
 
+namespace matrozov\wacAuth;
+
 use yii\filters\AccessControl;
 use yii\filters\AccessRule;
 use yii\filters\auth\CompositeAuth;
