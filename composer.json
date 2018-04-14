@@ -1,0 +1,23 @@
+{
+  "name": "matrozov/yii2-wac-auth",
+  "description": "Yii2 CompositAuth with AccessControl integration.",
+  "keywords": ["yii2", "access-control", "authorization"],
+  "type": "yii2-extension",
+  "homepage": "https://github.com/matrozov/yii2-wac-auth",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matrozov Oleg",
+      "email": "oleg.matrozov@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "2.0.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "matrozov\\auth-wac\\": "src"
+    }
+  }
+}
