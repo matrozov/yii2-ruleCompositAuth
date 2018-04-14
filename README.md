@@ -1,5 +1,5 @@
 # yii2-auth-wac
-Yii2 CompositAuth with AccessControl integration.
+Yii2 CompositeAuth with AccessControl integration.
 
 By default, AuthMethod checks only the internal "optional" property to test whether it is possible to get into this
 action without authorization. You should duplicate the access rules in AuthMethod and AccessControl. WacAuth allows
@@ -58,3 +58,8 @@ $behaviors['access'] = [
 ```
 
 You wrap HttpBearerAuth in WacAuth and now it automatically takes into account roles="?" in AccessControl.
+
+## WacAuth and CompositeAuth
+
+Since WacAuth is the successor of CompositeAuth, you can use it in all similar cases for a combination of authorization
+methods.
