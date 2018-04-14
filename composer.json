@@ -17,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "matrozov\\auth-wac\\": "src"
+      "matrozov\\wacAuth\\": "src"
     }
   }
 }
