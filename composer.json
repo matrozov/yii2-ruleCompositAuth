@@ -1,6 +1,6 @@
 {
   "name": "matrozov/yii2-wac-auth",
-  "description": "Yii2 CompositAuth with AccessControl integration.",
+  "description": "Yii2 CompositeAuth with AccessControl integration.",
   "keywords": ["yii2", "access-control", "authorization"],
   "type": "yii2-extension",
   "homepage": "https://github.com/matrozov/yii2-wac-auth",
